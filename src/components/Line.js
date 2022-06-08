@@ -102,7 +102,7 @@ export default function Line(){
         options={options}
         series={options.series}
         type="line"
-        width={450}
+        width={420}
         height={350}
       />
     </div>

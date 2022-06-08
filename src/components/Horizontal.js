@@ -65,7 +65,7 @@ export default function Bars(){
         series={series}
         type="bar"
         height="350"
-        width={"450"}
+        width={"420"}
         />
     </div>
   )

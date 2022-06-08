@@ -61,7 +61,7 @@ export default function Radial(){
       label={labels}
       type="radialBar"
       height="390"
-      width={"450"}
+      width={"420"}
       />
     </div>
   )

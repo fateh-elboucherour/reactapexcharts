@@ -52,7 +52,7 @@ export default function Radar(){
           series={options.series}
           type="radar"
           height="310"
-          width="450"
+          width="420"
         />
     </div>
 

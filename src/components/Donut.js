@@ -41,7 +41,7 @@ export default function Donut(){
         series={options.series}
         type="donut"
         height="350"
-        width="450"
+        width="420"
       />
   </div>
   </div>
