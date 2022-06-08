@@ -39,7 +39,7 @@ function App() {
         </div>
         <div className='flex'>
           <a href='https://www.linkedin.com/in/fatehelboucherour/'><img src='../logo-linkedin.png' className='h-12 w-12 icon' alt='' /></a>
-          <a href="https://www.linkedin.com/in/fatehelboucherour/"><img src='../logo-github.jpg' className='mr-1 h-12 w-12 icon' alt='' /></a>
+          <a href="https://github.com/fateh-elboucherour/reactapexcharts.git"><img src='../logo-github.jpg' className='mr-1 h-12 w-12 icon' alt='' /></a>
           <img src='../fateh.png' className='mr-8 w-12 h-12' alt='' />
         </div>
       </header>
