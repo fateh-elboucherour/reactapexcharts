@@ -42,19 +42,18 @@ export default function Radar(){
             data: [data4, data3, data2, data1]
         }
         ],
-        labels: ['April', 'May', 'June', 'July', 'August', 'September']
     }
 
   return(
       <div className="row">
+          <p className='text-2xl font-thin text-center'>Skills measurement</p>
           <Chart
           options={options}
           series={options.series}
           type="radar"
-          height="350"
-          width={"450"}
+          height="310"
+          width="450"
         />
-        <p className='text-2xl font-thin text-center'>Radar</p>
     </div>
 
 )

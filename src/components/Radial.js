@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import Chart from "react-apexcharts";
 
-
 export default function Radial(){
 
   const [data1, setData1] = useState(10)
@@ -55,15 +54,15 @@ export default function Radial(){
 
   return(
     <div className="row">
+      <p className='text-2xl font-thin text-center'>Activity tracking</p>
       <Chart
       options={options}
       series={series}
       label={labels}
       type="radialBar"
-      height="350"
+      height="390"
       width={"450"}
       />
-      <p className='text-2xl font-thin text-center'>Radial</p>
     </div>
   )
 }

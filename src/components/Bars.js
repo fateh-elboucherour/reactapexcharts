@@ -23,22 +23,22 @@ export default function Bars(){
   }, []);
 
   var options = {
-              chart: {
-                id: "basic-bar",
-                toolbar: {
-                  show: false
-                },
-              },
-              xaxis: {
-                categories: [1991, 1992, 1993, 1994]
-              },
-              legend: {
-                show: false
-              },                            
-              fill: {
-                colors : ['#FF0000'],
-              }
-            }
+    chart: {
+      id: "basic-bar",
+      toolbar: {
+        show: false
+      },
+    },
+    xaxis: {
+      categories: [2019, 2020, 2021, 2022]
+    },
+    legend: {
+      show: false
+    },                            
+    fill: {
+      colors : ['#FF0000'],
+    }
+  }
   var series = [
     {
       data: [data1, data2, data3, data4],
@@ -47,14 +47,14 @@ export default function Bars(){
 
   return(
     <div className="row">
+        <p className='text-2xl font-thin text-center'>Sales evolution</p>
         <Chart
         options={options}
         series={series}
         type="bar"
-        height="350"
+        height="310"
         width={"450"}
         />
-    <p className='text-2xl font-thin text-center'>Bar</p>
     </div>
   )
 }

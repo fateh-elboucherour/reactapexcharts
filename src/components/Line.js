@@ -72,13 +72,11 @@ export default function Line(){
     markers: {
       size: 0
     },
-
     xaxis: {
       type: 'datetime',
       labels: {
         show: true},
     },
-    
     yaxis: {
       min: 0
     },
@@ -99,6 +97,7 @@ export default function Line(){
 
   return(
     <div className="row">
+        <p className='text-2xl font-thin text-center'>Cross analysis</p>
         <Chart
         options={options}
         series={options.series}
@@ -106,7 +105,6 @@ export default function Line(){
         width={450}
         height={350}
       />
-      <p className='text-2xl font-thin text-center'>Line / Bar</p>
     </div>
   )
 }

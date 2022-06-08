@@ -33,15 +33,17 @@ export default function Donut(){
   }
   
   return(
+    <div>
+    <p className='text-2xl font-thin text-center'>Budget distribution</p>
     <div className="row">
         <Chart
         options={options}
         series={options.series}
         type="donut"
         height="350"
-        width={"450"}
+        width="450"
       />
-      <p className='text-2xl font-thin text-center'>Donut</p>
+  </div>
   </div>
   )
 }
